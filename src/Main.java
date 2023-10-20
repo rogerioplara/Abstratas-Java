@@ -54,7 +54,7 @@ public class Main {
 
         System.out.println("SHAPE AREA(S): ");
         for(Shape sh : shapes){
-            System.out.printf("%.2f%n", sh.area());
+            System.out.printf("%s: %.2f%n", sh.getName(), sh.area());
         }
 
     }

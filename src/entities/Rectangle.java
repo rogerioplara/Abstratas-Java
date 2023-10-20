@@ -4,6 +4,7 @@ import entities.enums.Color;
 
 public class Rectangle extends Shape{
 
+    private String name = "Rectangle";
     private Double width;
     private Double height;
 
@@ -31,6 +32,16 @@ public class Rectangle extends Shape{
 
     public void setHeight(Double height) {
         this.height = height;
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override

@@ -4,6 +4,7 @@ import entities.enums.Color;
 
 public class Circle extends Shape{
 
+    private String name = "Circle";
     private Double radius;
 
     public Circle() {
@@ -21,6 +22,16 @@ public class Circle extends Shape{
 
     public void setRadius(Double radius) {
         this.radius = radius;
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
