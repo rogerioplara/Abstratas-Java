@@ -8,6 +8,7 @@ public class Rectangle extends Shape{
     private Double height;
 
     public Rectangle(){
+        super();
     }
 
     public Rectangle(Double width, Double height, Color color){
